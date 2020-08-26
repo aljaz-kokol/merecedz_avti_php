@@ -3,10 +3,10 @@ class NrsDatabase{
 
         //* POVEZAVA Z BAZO
         private static function connect(){
-            $DB_NAME = 'nrs_seminarska_naloga';//id13086134_seminarskanaloga'
-            $DB_USERNAME = 'root'; //'id13086134_seminarskanrs' 
-            $DB_SERVER = '127.0.0.1';
-            $DB_PASSWORD = 'AgXhCNXqaK82@RF';
+            $DB_NAME = '';
+            $DB_USERNAME = '';  
+            $DB_SERVER = '';
+            $DB_PASSWORD = '';
             try {
                 $connection = new mysqli($DB_SERVER, $DB_USERNAME, $DB_PASSWORD, $DB_NAME);
                 return $connection;
